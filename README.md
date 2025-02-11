@@ -18,10 +18,16 @@ requests library (install with pip)
 Windows, Linux, or macOS
 
 # Installation
-Clone the repository or download the script.
-Install the required dependencies: pip install -r requirements.txt
-If you're using a Windows machine, make sure you have PowerShell access to install the FTP server.
-For Linux/macOS, ensure that you have sudo privileges to install the FTP server.
+Clone the repository download and run the script.
+```
+git clone https://github.com/SleepTheGod/Xbox360FTP/
+cd Xbox360FTP
+chmod +x main.py
+pip install -r requirements.txt
+python3 main.py
+python3 main.py -h
+python3 main.py --help
+```
 
 # Usage
 To run the script, open a terminal or command prompt and execute the following:
